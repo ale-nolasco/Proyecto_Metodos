@@ -2,7 +2,7 @@
 
 int main()
 {
-	int portada, menu, simple, multi, div;
+	int portada, menu;
 	int resp;
 	setlocale(LC_ALL, "");
 	Portada();
@@ -18,7 +18,8 @@ int main()
 		   switch(menu)
 		   {
 			   case 1: {
-
+				   	system("cls");
+				   	Lagrange();
 				break;
 			   }
 			   case 2:{
