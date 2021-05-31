@@ -6,6 +6,7 @@
 #include "Spline.c"
 #include "Portada.c"
 #include "Menu.c"
+#include "Lagrange.c"
 
 int gotoxy(int x,int y)
 {
